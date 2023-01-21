@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #F2F2F2;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 0.625rem;
+    color: rgba(0,0,0,.55);
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+}
+
+header .navbar-expand-lg .right-nav .nav-link{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgba(0,0,0,.60);
+    padding: .5rem 1.2rem;
+
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #f3652a
+}
+#feature-product{
+    padding: 30px 0;
+}
+
+#feature-product h2{
+    color: #323334;
+    font-size: 1.1rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+#feature-product h2 img{
+    display: block;
+    margin: auto;
+    padding-top: 0.7rem;
+}
+#feature-product .container > p{
+    color: #808080;
+    font-size: 15px;
+    font-style: italic;
+}
+#feature-product .col .card{
+    border: none;
+    padding-bottom: 2rem;
+}
+#feature-product .col .card .feedback{
+    padding: 30px 0;
+    color: #f3652a
+}
+#feature-product .col .card .currency span:first-child{
+    display: inline-block;
+    margin-right: 5px;
+    color: #bbb;
+    font-size: 13px;
+}
+#feature-product .col .card .currency span:last-child{
+    color: #f3652a;
+    font-size: 14px;
+}
+#feature-product .col .card h3 a{
+    color: #323334;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+#feature-product .col .card h3 a:hover{
+    color: #f3652a;
+}
+
+#feature-product .col .card .btn-light{
+    border: 2px solid #d7d7d7;
+    border-radius: 0;
+    color: #b0b0b0;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+#feature-product .col .card .btn-light:hover{
+    color: #f3652a;
+    border-color: #f3652a;
+    background-color: transparent;
+}
